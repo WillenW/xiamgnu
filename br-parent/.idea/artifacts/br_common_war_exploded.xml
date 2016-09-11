@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="br-common:war exploded">
+    <output-path>$PROJECT_DIR$/br-common/target/br-common</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="br-common" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/br-common/target/br-common/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="br-common/web/Web" />
+    </root>
+  </artifact>
+</component>

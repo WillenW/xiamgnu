@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="br-common:war">
+    <output-path>$PROJECT_DIR$/br-common/target</output-path>
+    <root id="archive" name="br-common.war">
+      <element id="artifact" artifact-name="br-common:war exploded" />
+    </root>
+  </artifact>
+</component>
